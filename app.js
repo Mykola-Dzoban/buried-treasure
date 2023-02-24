@@ -50,7 +50,7 @@ $("#map").click(function(event){
 
     if(distance < 8){
         $("#distance").text('');
-        clicks = 0;
         alert(`Found the treasure in ${clicks} clicks!`)
+        clicks = 0;
     }
 })
